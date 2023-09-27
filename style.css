@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e71515d8;
+}
+/* navigation section */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 40px;
+  color: #fff;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar a {
+  color: #a8a1a1;
+  box-shadow: 0 1px 5px #4a1e25;
+  padding: 2px;
+}
+
+.Home a {
+  color: #fff;
+}
+
+/* content section  */
+
+.text {
+  color: #a70707;
+  /* box-shadow: 2px 1px #4a1e25; */
+  /* font-weight: 100; */
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  /* font: 400; */
+}
+
+.text p {
+  position: absolute;
+  top: 14px;
+  left: 613px;
+  /* color: #fff; */
+  font-size: 25px;
+  /* font-style: italic; */
+}
+
+/* About us Section  */
+
+.elon {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.elon-musk {
+  background-color: #fff;
+  display: flex;
+  padding-left: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.elon-img {
+  border: 50px solid #fff;
+  width: 181px;
+  height: 200px;
+  position: absolute;
+  left: 281px;
+  top: 180px;
+}
+
+.elon-musk img {
+  width: 149px;
+  height: 194px;
+  padding: 2px;
+  position: absolute;
+  left: -38px;
+  top: -27px;
+  object-fit: cover;
+}
+
+.elon-main {
+  display: block;
+  width: 50%;
+  text-align: justify;
+  padding: 10px;
+}
+
+.elon-main h1 {
+  color: #7fffd4;
+  font-style: oblique;
+}
+
+.elon-main h2 {
+  color: #a70707;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.elon-main p {
+  color: #000;
+  text-align: justify;
+}
+
+.elon-main button {
+  width: 91px;
+  height: 31px;
+  border-block-color: #18c3ee;
+  padding: 3px;
+  background-color: #18c3ee;
+  color: #fff;
+  /* box-shadow: 0 0 0 blue; */
+}
+
+.elon-musk-tesla {
+  display: flex;
+  gap: 50px;
+  background-color: #f0e9e9;
+  justify-content: space-around;
+}
+
+.elon-musk-tesla-img {
+  display: block;
+}
+
+.elon-musk-tesla img {
+  width: 50px;
+  height: 50px;
+}
+
+.elon-musk-tesla h5 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Selected Company section  */
+
+.company h1 {
+  background-color: #e71010;
+  color: #a70707;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 800;
+}
+
+.elon__company h1,
+p {
+  text-align: center;
+  color: #a70707;
+  background-color: #fff;
+  margin-top: 0;
+}
+
+.elon-company {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.elon-company img {
+  width: 100%;
+  height: 114%;
+  margin-bottom: -4px;
+}
+
+.elon-company p {
+  color: #18c3ee;
+}
+
+/* img hero section */
+
+.img-hero {
+  margin-top: 100px;
+}
+
+.img-hero-img img {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+
+.img__hero {
+  width: 78%;
+  height: 100.5%;
+  background-color: #fff;
+  position: absolute;
+  top: 1090px;
+  left: 40px;
+}
+
+.img__hero h1 {
+  font-size: 60px;
+  color: #a70707;
+  padding: 10px;
+}
+
+.img__hero h6 {
+  color: #b6cfeb;
+  display: block;
+  font-size: 60px;
+  padding-left: 60px;
+}
+
+.img__hero p {
+  display: block;
+  font-size: 60px;
+  color: #569be4;
+  padding-right: 663px;
+}
+
+/* Chanllenge section  */
+
+.chanllenge {
+  display: flex;
+  gap: 73px;
+  background-color: #fff;
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+}
+
+.contact {
+  display: block;
+}
+
+.contact h1 {
+  text-align: left;
+  color: #a70707;
+  padding-left: 20px;
+  padding: 20px;
+}
+
+form {
+  align-content: center;
+  justify-content: center;
+  display: block;
+  width: 50%;
+  padding: 5px;
+}
+
+input {
+  margin-top: 10px;
+  width: 320px;
+  height: 40px;
+  padding-right: 6px;
+}
+
+button {
+  width: 326px;
+  height: 46px;
+  margin-top: 10px;
+  border: 1px solid #a70707;
+  background-color: #fff;
+}
+
+.elon-musk-chanllenge {
+  border: 10px solid #fff;
+  width: 26%;
+  height: 510px;
+  position: absolute;
+  left: 450px;
+  background-color: #fff;
+  top: 1778px;
+  margin-bottom: 30px;
+}
+
+.elon-musk-chanllenge h1 {
+  color: #a70707;
+  padding: 25px;
+}
+
+.elon-musk-chanllenge p {
+  text-align: justify;
+  color: #000;
+}
+
+.elon-musk-chanllenge button {
+  width: 134px;
+  height: 50px;
+  background-color: #7fffd4;
+  color: #fff;
+  padding: 20px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* footer section */
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  gap: 20px;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 10px 10px #4a1e25;
+}
+
+.footer h1 {
+  font-size: 8px;
+}
+
+.footer p {
+  background-color: #ff0000;
+  color: #fff;
+}
